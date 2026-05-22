@@ -1,0 +1,22 @@
+---
+import { siteConfig } from "~/settings";
+import NavLink from "./NavLink.astro";
+---
+
+<header>
+  <nav aria-label="Main">
+    <ul>
+      <li>
+        <a href="/">
+          <strong>{siteConfig.title}</strong>
+        </a>
+      </li>
+    </ul>
+    <ul>
+      <li><NavLink path="blog">Blog</NavLink></li>
+      <li><NavLink path="pages">Pages</NavLink></li>
+      <li><NavLink path="about">About</NavLink></li>
+      <li><NavLink path="contact">Contact</NavLink></li>
+    </ul>
+  </nav>
+</header>

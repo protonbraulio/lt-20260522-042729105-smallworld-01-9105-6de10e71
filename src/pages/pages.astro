@@ -1,0 +1,30 @@
+---
+import Base from "@layouts/Base.astro";
+import generatedPages from "../config/generated-pages.json";
+
+const pages = generatedPages as Array<{ href: string; title?: string; label?: string }>;
+---
+
+<Base title="Pages" description="Generated site pages">
+  <article>
+    <header>
+      <hgroup>
+        <h1>Pages</h1>
+        <p>Generated pages and evergreen site information.</p>
+      </hgroup>
+    </header>
+    {
+      pages.length > 0 ? (
+        <ul>
+          {pages.map((page) => (
+            <li>
+              <a href={page.href}>{page.label ?? page.title ?? page.href}</a>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p>No generated pages are published yet.</p>
+      )
+    }
+  </article>
+</Base>

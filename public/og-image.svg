@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Smallworld Load Test 01 20260522-042729105">
+  <rect width="1200" height="630" fill="#f8faf9"/>
+  <rect x="80" y="80" width="1040" height="470" rx="28" fill="#ffffff" stroke="#d9e2dd" stroke-width="3"/>
+  <text x="130" y="265" fill="#111827" font-family="Georgia, serif" font-size="76" font-weight="700">Smallworld Load Test 01 20260522-042729105</text>
+  <text x="130" y="355" fill="#44544c" font-family="Arial, sans-serif" font-size="34">Real staging load test batch 20260522-042729105 for Smallworld.</text>
+  <text x="130" y="475" fill="#64756d" font-family="Arial, sans-serif" font-size="24">Published with Smallworld for Astro</text>
+</svg>

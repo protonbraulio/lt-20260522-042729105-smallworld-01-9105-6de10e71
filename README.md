@@ -1,2 +1,13 @@
-# lt-20260522-042729105-smallworld-01-9105-6de10e71
-Real staging load test batch 20260522-042729105 for Smallworld.
+# Smallworld Load Test 01 20260522-042729105
+
+Generated with the Smallworld Astro template.
+
+## Commands
+
+- `pnpm install`
+- `pnpm build`
+
+## Content
+
+- Blog posts live in `src/content/blog` and use the `pubDate` frontmatter field.
+- Universal pages live as Astro routes under `src/pages`.
